@@ -371,6 +371,16 @@ had been quietly inflating question 2 all along. A few things worth keeping:
 
 ---
 
+
+## Conclusion
+
+Putting the eight findings together: demand for Data Scientist roles softened over 2023, but the
+skills that matter didn't change. Python, SQL and R remain the entry ticket — almost always
+requested together, never in isolation. Beyond that baseline, the highest-value additions are
+cloud and ML tooling (AWS, Spark, TensorFlow, PyTorch) — demanded enough to be a real market, paid
+well enough to justify learning them.
+
+
 ## Repo structure
 
 ```
