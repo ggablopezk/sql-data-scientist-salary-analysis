@@ -362,6 +362,16 @@ esperaba).
 
 ---
 
+## Conclusión
+
+Tiendo en cuenta los ocho hallazgos: la demanda de roles de Data Scientist se reduzó durante 2023, pero las
+skills que importan no cambiaron. Python, SQL y R siguen siendo la entrada obligada — casi siempre se
+piden juntas, casi nunca en forma aislada. Más allá de esa base, los agregados de mayor valor son
+las herramientas de cloud y ML (AWS, Spark, TensorFlow, PyTorch) — con demanda suficiente para ser
+un mercado real, y salario suficiente para justificar aprenderlas.
+
+---
+
 ## Lo que me llevo de esto
 
 La query más difícil de escribir (el self-join de la pregunta 3) fue también la que expuso un bug
@@ -372,8 +382,6 @@ que venía inflando la pregunta 2 desde el principio. Algunas cosas para no olvi
 2. Que el promedio y la mediana no coincidan es información, no un problema — es lo que te dice
    que una distribución está sesgada.
 3. Dos filas idénticas siempre merecen que te detengas a mirar.
-
----
 
 ## Estructura del repo
 
