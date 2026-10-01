@@ -384,8 +384,9 @@ well enough to justify learning them.
 ## Repo structure
 
 ```
-sql-project-data-scientist/
+sql-data-scientist-salary-analysis/
 ├── README.md
+├── README.es.md
 ├── queries/
 │   ├── 00_data_quality_checks.sql
 │   ├── 01_market_trend_monthly.sql
