@@ -36,6 +36,8 @@ repartidas en tres tablas:
 El recorte es `job_title_short = 'Data Scientist'`. Las preguntas de salario usan solo
 publicaciones donde `salary_year_avg IS NOT NULL` — más o menos 1 de cada 25.
 
+El dataset y las preguntas base (2, 4, 5, 6 y 8) siguen el curso [SQL for Data Analytics](https://github.com/lukebarousse/SQL_Project_Data_Job_Analysis) de Luke Barousse, aplicadas acá a roles de Data Scientist en lugar de Data Analyst. Las preguntas 1, 3 y 7 son extensiones propias.
+
 ---
 
 ## Hallazgos
@@ -362,16 +364,6 @@ esperaba).
 
 ---
 
-## Conclusión
-
-Tiendo en cuenta los ocho hallazgos: la demanda de roles de Data Scientist se reduzó durante 2023, pero las
-skills que importan no cambiaron. Python, SQL y R siguen siendo la entrada obligada — casi siempre se
-piden juntas, casi nunca en forma aislada. Más allá de esa base, los agregados de mayor valor son
-las herramientas de cloud y ML (AWS, Spark, TensorFlow, PyTorch) — con demanda suficiente para ser
-un mercado real, y salario suficiente para justificar aprenderlas.
-
----
-
 ## Lo que me llevo de esto
 
 La query más difícil de escribir (el self-join de la pregunta 3) fue también la que expuso un bug
@@ -382,6 +374,18 @@ que venía inflando la pregunta 2 desde el principio. Algunas cosas para no olvi
 2. Que el promedio y la mediana no coincidan es información, no un problema — es lo que te dice
    que una distribución está sesgada.
 3. Dos filas idénticas siempre merecen que te detengas a mirar.
+
+---
+
+## Conclusión
+
+Teniendo en cuenta los ocho hallazgos: la demanda de roles de Data Scientist se redujo durante 2023, pero las
+skills que importan no cambiaron. Python, SQL y R siguen siendo la entrada obligada — casi siempre se
+piden juntas, casi nunca en forma aislada. Más allá de esa base, los agregados de mayor valor son
+las herramientas de cloud y ML (AWS, Spark, TensorFlow, PyTorch) — con demanda suficiente para ser
+un mercado real, y salario suficiente para justificar aprenderlas.
+
+---
 
 ## Estructura del repo
 
