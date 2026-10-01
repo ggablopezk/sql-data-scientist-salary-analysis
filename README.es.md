@@ -386,7 +386,7 @@ que venía inflando la pregunta 2 desde el principio. Algunas cosas para no olvi
 ## Estructura del repo
 
 ```
-sql-project-data-scientist/
+sql-data-scientist-salary-analysis/
 ├── README.md
 ├── README.es.md
 ├── queries/
