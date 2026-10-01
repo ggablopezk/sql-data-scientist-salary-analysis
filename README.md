@@ -35,6 +35,8 @@ through the end of 2023, spread across three tables:
 Scope is `job_title_short = 'Data Scientist'`. Salary questions use only postings where
 `salary_year_avg IS NOT NULL` — about 1 in 25 postings.
 
+The dataset and the baseline questions (2, 4, 5, 6 and 8) follow Luke Barousse's [SQL for Data Analytics](https://github.com/lukebarousse/SQL_Project_Data_Job_Analysis) course, applied here to Data Scientist roles instead of Data Analyst. Questions 1, 3 and 7 are my own extensions.
+
 ---
 
 ## Findings
